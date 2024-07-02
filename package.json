@@ -9,7 +9,6 @@
   "bugs": "https://github.com/levakorg/typescript-config/issues",
   "version": "1.0.0",
   "license": "MIT",
-  "bin": "bin.js",
   "main": "tsconfig.json",
   "keywords": [
     "typescript",
