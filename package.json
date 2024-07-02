@@ -16,7 +16,7 @@
     "typescript-config"
   ],
   "files": [
-    "dist",
+    "tsconfig.json",
     "LICENSE",
     "README.md",
     "TODO.md",
