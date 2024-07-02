@@ -1,0 +1,37 @@
+{
+  "private": false,
+  "type": "module",
+  "name": "@levakorg/typescript-config",
+  "description": "Typescript config levakorg org's",
+  "author": "levakorg authors <levakorg@gmail.com>",
+  "homepage": "https://github.com/levakorg/typescript-config",
+  "repository": "https://github.com/levakorg/typescript-config",
+  "bugs": "https://github.com/levakorg/typescript-config/issues",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": "bin.js",
+  "main": "tsconfig.json",
+  "keywords": [
+    "typescript",
+    "typescript-config"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "TODO.md",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "prettier --write \"./**/*.{md,html,css,json,cjs,mjs,js,ts,jsx,tsx,vue,svelte}\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@levakorg/prettier-config": "^1.0.2",
+    "prettier": "^3.3.2"
+  },
+  "peerDependencies": {}
+}

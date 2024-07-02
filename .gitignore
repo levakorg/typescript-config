@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+npm-debug.log
+yarn-error.log
+
+# environment
+.env
+.env.dev
+.env.stage
+
+# bundle
+/dist
+
+# testing
+/testing
+ 
+# editors
+/.idea
+/.vscode
+
+# other
+.DS_Store
